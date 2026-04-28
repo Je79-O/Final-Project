@@ -1,20 +1,29 @@
 /* styles.css */
-
-
-
-body{
+html, body {
+	height: 100%;
 	background-color: blue;
-	  }
-
-
-
-
-
-
-
-* {
-	font-family: Arial;
 }
+
+html, body {
+	height: 100%;
+	background-color: purple;
+}
+
+html, body {
+	
+	.calistoga-regular {
+  font-family: "Calistoga", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+}
+
+p {
+	font-size: 5em;
+	color: green;
+}
+
 
 
  
