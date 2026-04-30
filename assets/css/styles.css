@@ -1,4 +1,12 @@
 /* styles.css */
+h1 {
+	color: orange
+}
+
+
+h2 {
+	color: red
+}
 html, body {
 	height: 100%;
 	background-color: blue;
@@ -23,7 +31,16 @@ p {
 	font-size: 5em;
 	color: green;
 }
-
-
-
  
+
+.my-button {
+	anchor-name: --my-button;
+}
+
+#my-element {
+  position: absolute;
+  position-anchor: --my-button;
+  position-area: bottom span-right;
+  border: none;
+  backround-color: gray;
+}
